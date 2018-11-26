@@ -4046,4 +4046,8 @@ section.package .moderator-side .waiting {
   padding: 15px;
   float:right;
   width: 450px;
+  user-select: all;
+}
+.nuget-badge-small code > span:first-child {
+  user-select: none;
 }
